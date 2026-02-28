@@ -36,13 +36,13 @@ body {
 .user {
   text-align: right;
   margin: 5px;
-  color: rgb(211, 133, 133);
+  color: rgb(115, 28, 255);
 }
 
 .bot {
   text-align: left;
   margin: 5px;
-  color: rgb(255, 136, 0);
+  color: rgb(255, 0, 0);
 }
 
 .input-area {
