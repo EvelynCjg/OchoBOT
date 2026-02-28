@@ -1,14 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   font-family: Arial;
-  background: #f1ccb5;
+  background-image: url("https://image.idntimes.com/post/20251020/upload_e26f5d199eabbc3d593e2e4301ca2c2c_2273b660-4e49-49c7-86da-a0f56db90802.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   padding-top: 50px;
 }
 
 .chat-container {
   width: 400px;
-  background: white;
+  background: rgb(255, 227, 103);
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -17,7 +28,7 @@ body {
 #chat-box {
   height: 300px;
   overflow-y: auto;
-  border: 1px solid #ddd;
+  border: 1px solid #ffa200;
   padding: 10px;
   margin-bottom: 10px;
 }
